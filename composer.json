@@ -1,0 +1,26 @@
+{
+  "name": "rocketeers/rocketeer-bugsnag",
+  "description": "Bugsnag deploy tracking for Rocketeer",
+  "license": "MIT",
+  "keywords": [
+    "rocketeer",
+    "bugsnag"
+  ],
+  "authors": [
+    {
+      "name": "Bram Devries",
+      "email": "bram@madewithlove.be"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "anahkiasen/rocketeer": "3.0.x@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rocketeer\\Plugins\\Bugsnag\\": "src/Bugsnag"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
