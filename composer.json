@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Rocketeer\\Plugins\\Bugsnag\\": "src/Bugsnag"
+      "Rocketeer\\Plugins\\Bugsnag\\": "src"
     }
   },
   "minimum-stability": "dev",
